@@ -1,0 +1,55 @@
+.pricing-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background: #000;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* Enable wrapping for small screens */
+    justify-content: space-between; /* Spacing between cards */
+    padding: 20px; /* Add padding for spacing on the sides */
+}
+
+.card {
+    background: black;
+    border: 1px dotted #eee;
+    text-align: center;
+    padding: 1rem;
+    flex: 0.31; /* Adjust the flex value for spacing between cards */
+    width: 30%;
+    margin: 10px; /* Add margin for spacing between cards */
+}
+
+.card:hover {
+    background-color: #141414;
+}
+
+.card h3 {
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+
+.card p {
+    padding: 10px 0;
+}
+
+.bar {
+    border: 1px solid #eee;
+    width: 10%;
+    margin: 1.5rem auto;
+    display: block;
+}
+
+.btc {
+    font-size: 4rem;
+    font-weight: 600;
+    padding: 1rem 0;
+}
+
+.btn {
+    display: block;
+    margin: 2rem auto;
+}
